@@ -42,4 +42,13 @@ const fs = require("fs");
 
   // Print loot rarity
   await fs.writeFileSync("./output/rare.json", JSON.stringify(scores));
+
+  // Sort by index of score
+  scores = scores.map(({ lootId }, i) => ({
+    lootId,
+    rarest: i,
+  }));
+
+  // Print loot by score rarity
+  await fs.writeFileSync("./output/scored.json", JSON.stringify(scores));
 })();
