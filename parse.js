@@ -46,7 +46,7 @@ const fs = require("fs");
   // Sort by index of score
   scores = scores.map(({ lootId }, i) => ({
     lootId,
-    rarest: i,
+    rarest: i + 1,
   }));
 
   // Print loot by score rarity
