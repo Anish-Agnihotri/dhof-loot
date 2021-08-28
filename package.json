@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "collect": "node index.js",
-    "parse": "node parse.js"
+    "parse": "node parse.js",
+    "images": "node images.js"
   },
   "keywords": [
     "loot",
