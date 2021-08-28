@@ -12,8 +12,8 @@ const loot = new ethers.Contract(lootAddress, abi, rpc);
   // In-mem retrieval
   let retrievedLoot = [];
 
-  // Collect 0...7999 ids
-  for (let i = 0; i < 8000; i++) {
+  // Collect 1...8000 ids
+  for (let i = 1; i <= 8000; i++) {
     console.log("Collecting: ", i);
 
     // Collect parts

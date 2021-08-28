@@ -14,7 +14,7 @@ Launch tweet for [LOOT](https://twitter.com/dhof/status/1431316631934967815).
 
 - `output/loot.json` contains all tokenIds and their attributes.
 - `output/occurences.json` contains the number of occurences by attribute.
-- `output/rare.json` contains a mapping of `lootId` to `score` (which is the sum of number of occcrences of each child attribute for a `lootId`), sorted ascending by `score`. Thus, the lower the score, the rarer the overall attributes for a `lootId`.
+- `output/rare.json` contains a mapping of `lootId` to `score` (which is the sum of number of occcrences of each child attribute for a `lootId`), sorted ascending by `score`. It also includes `rarest` which is how rare the loot bags attributes are (`1` == `rarest`, `8000` == `least rare`).
 
 ## Run locally
 

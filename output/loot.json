@@ -1,17 +1,5 @@
 [
   {
-    "0": {
-      "chest": "Silk Robe",
-      "foot": "Holy Greaves",
-      "hand": "Leather Gloves",
-      "head": "Ancient Helm",
-      "neck": "Amulet",
-      "ring": "Silver Ring",
-      "waist": "Leather Belt of Fury",
-      "weapon": "Chronicle"
-    }
-  },
-  {
     "1": {
       "chest": "Hard Leather Armor",
       "foot": "\"Death Root\" Ornate Greaves of Skill",
@@ -95997,6 +95985,18 @@
       "ring": "Bronze Ring of Detection",
       "waist": "Ornate Belt",
       "weapon": "Warhammer"
+    }
+  },
+  {
+    "8000": {
+      "chest": "Silk Robe",
+      "foot": "Shoes",
+      "hand": "Divine Gloves",
+      "head": "\"Demon Bender\" Great Helm of Anger +1",
+      "neck": "Pendant of Titans",
+      "ring": "Bronze Ring",
+      "waist": "War Belt",
+      "weapon": "\"Vortex Roar\" Club of Perfection"
     }
   }
 ]
