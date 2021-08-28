@@ -34,7 +34,7 @@ const fs = require("fs");
     for (const attribute of Object.values(attributes)) {
       score += rarityIndex[attribute];
     }
-    scores.push({ lootId: i, score });
+    scores.push({ lootId: i + 1, score });
   }
 
   // Sort by score
