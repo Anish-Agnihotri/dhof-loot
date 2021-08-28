@@ -32,3 +32,7 @@ npm run parse
 # Collect base64 encoded images
 npm run images
 ```
+
+## Credits
+
+- [@ktasbas](https://github.com/ktasbas) for adding base64 encoded SVG retrieval support
