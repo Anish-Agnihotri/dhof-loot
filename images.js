@@ -4,8 +4,8 @@ const ethers = require("ethers");
 const { abi } = require("./abi");
 
 // Setup contract
-const lootAddress = "0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7";
-const rpc = new ethers.providers.JsonRpcProvider("http://localhost:8545");
+const lootAddress = "0x8707276df042e89669d69a177d3da7dc78bd8723";
+const rpc = new ethers.providers.JsonRpcProvider(process.env.RPC_CONNSTRING);
 const loot = new ethers.Contract(lootAddress, abi, rpc);
 
 (async () => {

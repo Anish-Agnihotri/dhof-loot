@@ -1,7 +1,7 @@
 {
   "name": "dhof-loot",
   "version": "1.0.0",
-  "description": "Collects details about the Loot project",
+  "description": "Collects details about the DOPE project",
   "main": "index.js",
   "scripts": {
     "collect": "node index.js",
@@ -9,7 +9,7 @@
     "images": "node images.js"
   },
   "keywords": [
-    "loot",
+    "dope",
     "words",
     "ethereum"
   ],

@@ -123,7 +123,21 @@ module.exports = {
     },
     {
       inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
-      name: "getChest",
+      name: "getClothes",
+      outputs: [{ internalType: "string", name: "", type: "string" }],
+      stateMutability: "view",
+      type: "function",
+    },
+    {
+      inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
+      name: "getDrugs",
+      outputs: [{ internalType: "string", name: "", type: "string" }],
+      stateMutability: "view",
+      type: "function",
+    },
+    {
+      inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
+      name: "getVehicle",
       outputs: [{ internalType: "string", name: "", type: "string" }],
       stateMutability: "view",
       type: "function",
@@ -138,13 +152,6 @@ module.exports = {
     {
       inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
       name: "getHand",
-      outputs: [{ internalType: "string", name: "", type: "string" }],
-      stateMutability: "view",
-      type: "function",
-    },
-    {
-      inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
-      name: "getHead",
       outputs: [{ internalType: "string", name: "", type: "string" }],
       stateMutability: "view",
       type: "function",

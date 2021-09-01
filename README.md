@@ -1,14 +1,13 @@
 # dhof-loot
 
-Launch tweet for [LOOT](https://twitter.com/dhof/status/1431316631934967815).
+Launch tweet for [DOPE](https://twitter.com/DennisonBertram/status/1432773242163445763).
 
 <img src="https://pbs.twimg.com/media/E90OnuPX0AAUXG8?format=png&name=medium" width="300">
 
 ## Distribution
 
-- tokenIds `1` to `7778` claimable by user.
-- tokenIds `7778` to `8000` claimable by contract owner.
-- Each token has attributes: `chest`, `foot`, `hand`, `head`, `neck`, `ring`, `waist`, `weapon`.
+- tokenIds `1` to `8000` claimable by user.
+- Each token has attributes: `clothes`, `foot`, `hand`, `neck`, `ring`, `waist`, `weapon`, `drugs`, `vehicle`.
 
 ## Output
 
@@ -22,6 +21,9 @@ Launch tweet for [LOOT](https://twitter.com/dhof/status/1431316631934967815).
 ```bash
 # Install dependencies
 npm install
+
+# Setup
+export RPC_CONNSTRING="eth rpc url"
 
 # Collect all loot
 npm run collect
