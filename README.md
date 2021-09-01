@@ -33,12 +33,10 @@ npm run parse
 npm run images
 ```
 
-<<<<<<< HEAD
 ## Extras
 
 - `derivatives/andy8052-ability-score` — Ability Score NFTs
-=======
+
 ## Credits
 
 - [@ktasbas](https://github.com/ktasbas) for adding base64 encoded SVG retrieval support
->>>>>>> 4eed9426652866259229233da809f060f693afa0
