@@ -28,3 +28,7 @@ npm run collect
 # Parse statistics
 npm run parse
 ```
+
+## Extras
+
+- `derivatives/andy8052-ability-score` — Ability Score NFTs
