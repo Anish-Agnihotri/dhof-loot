@@ -38,7 +38,7 @@ const fs = require("fs");
 
     // Multiply probabilites P(A and B) = P(A) * P(B)
     const p = scores.reduce((a, b) => a * b);
-    probability.push({ lootId: i + 1, probability: p });
+    probability.push({ lootId: i + 8001, probability: p });
   }
 
   // Sort by probability
