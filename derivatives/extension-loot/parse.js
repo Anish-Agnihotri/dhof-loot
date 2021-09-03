@@ -3,13 +3,13 @@ const fs = require("fs");
 
 (async () => {
   // Load loot data
-  const data = await fs.readFileSync("./output/loot.json");
+  const data = await fs.readFileSync("./output/xLoot.json");
   const loot = JSON.parse(data);
 
   // Calculate attribute rarities
   let rarityIndex = {};
   for (let i = 0; i < loot.length; i++) {
-    const attributes = loot[i][(i + 1).toString()];
+    const attributes = loot[i][(i + 8001).toString()];
 
     // Add up number of occurences of attributes
     for (const attribute of Object.values(attributes)) {
@@ -25,34 +25,11 @@ const fs = require("fs");
     JSON.stringify(rarityIndex)
   );
 
-  // Calculate occurence scores
-  let scores = [];
-  for (let i = 0; i < loot.length; i++) {
-    let score = 0;
-    const attributes = loot[i][(i + 1).toString()];
-
-    for (const attribute of Object.values(attributes)) {
-      score += rarityIndex[attribute];
-    }
-    scores.push({ lootId: i + 1, score });
-  }
-
-  // Sort by score
-  scores = scores.sort((a, b) => a.score - b.score);
-  // Sort by index of score
-  scores = scores.map((loot, i) => ({
-    ...loot,
-    rarest: i + 1,
-  }));
-
-  // Print loot rarity by score
-  await fs.writeFileSync("./output/rare.json", JSON.stringify(scores));
-
   // Calculate pure probability
   let probability = [];
   for (let i = 0; i < loot.length; i++) {
     let scores = [];
-    const attributes = loot[i][(i + 1).toString()];
+    const attributes = loot[i][(i + 8001).toString()];
 
     for (const attribute of Object.values(attributes)) {
       // Collect probability of individual attribute occurences

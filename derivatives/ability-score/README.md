@@ -1,4 +1,4 @@
-# andy8052-ability-score
+# ability-score
 
 Launch tweet for [ability-score](https://twitter.com/andy8052/status/1432802588194377742).
 
