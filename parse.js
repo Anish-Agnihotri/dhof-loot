@@ -61,14 +61,15 @@ const fs = require("fs");
 
     // Multiply probabilites P(A and B) = P(A) * P(B)
     const p = scores.reduce((a, b) => a * b);
-    probability.push({ lootId: i + 1, probability: p });
+    probability.push({ lootId: i + 1, score: p });
   }
 
   // Sort by probability
-  probability = probability.sort((a, b) => a.probability - b.probability);
+  probability = probability.sort((a, b) => a.score - b.score);
   // Sort by index of probability
   probability = probability.map((loot, i) => ({
     ...loot,
+    score: Math.abs(Math.log(loot.score)),
     rarest: i + 1,
   }));
 
