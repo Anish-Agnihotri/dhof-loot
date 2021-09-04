@@ -7,7 +7,6 @@ const fs = require("fs");
   const loot = JSON.parse(data);
 
   // Calculate attribute rarities
-  console.log("Calculating rarity index");
   let rarityIndex = {};
   for (let i = 0; i < loot.length; i++) {
     const attributes = loot[i][(i + 8001).toString()];
@@ -27,7 +26,6 @@ const fs = require("fs");
   );
 
   // Calculate pure probability
-  console.log("Calculating probability");
   let probability = [];
   for (let i = 0; i < loot.length; i++) {
     let scores = [];
@@ -56,6 +54,6 @@ const fs = require("fs");
   // Print loot rarity by score
   await fs.writeFileSync(
     "./output/probability.json",
-    JSON.stringify(probability, null, "\t")
+    JSON.stringify(probability, null, 2)
   );
 })();

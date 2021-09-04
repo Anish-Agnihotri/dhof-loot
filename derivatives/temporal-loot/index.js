@@ -4,9 +4,9 @@ const ethers = require("ethers");
 const { abi } = require("../../abi");
 
 // Setup contract
-const TemporalLootAddress = "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF";
-const rpc = new ethers.providers.JsonRpcProvider("http://127.0.0.1:8545");
-const loot = new ethers.Contract(TemporalLootAddress, abi, rpc);
+const TemporalLoot = "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF";
+const rpc = new ethers.providers.JsonRpcProvider("http://localhost:8545");
+const loot = new ethers.Contract(TemporalLoot, abi, rpc);
 
 (async () => {
   // In-mem retrieval
@@ -14,7 +14,7 @@ const loot = new ethers.Contract(TemporalLootAddress, abi, rpc);
 
   // Collect 8001... ids
   for (let i = 8001; i < 1316005; i++) {
-    console.log("Collecting Temporal Loot: ", i);
+    console.log("Collecting xLoot: ", i);
 
     // Collect parts
     const [chest, foot, hand, head, neck, ring, waist, weapon] =

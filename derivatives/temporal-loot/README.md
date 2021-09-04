@@ -5,8 +5,6 @@
 - tokenIds `8001` to `(block.number / 10) + 1` claimable by user.
 - Each token has attributes: `chest`, `foot`, `hand`, `head`, `neck`, `ring`, `waist`, `weapon`.
 
-> Flag: this derivative script, unlike others, will pull almost 1.3m bags (with 8 attribute function calls each). I highly advise running against your own local node for speed and optimizing RPC expense.
-
 ## Output
 
 - `output/loot.json` contains all tokenIds and their attributes.
