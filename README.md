@@ -57,6 +57,7 @@ To run derivative scripts, follow the README in their subdirectory.
 - [Extension Loot](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/extension-loot) — Data for the [Extension Loot](https://twitter.com/xLootProject) project
 - [Synthetic Loot Botting](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/synthetic-loot) — Botting ideal synthetic loot by mass generating addresses
 - [Fork: Dope Wars Loot](https://github.com/cybergen/dope-wars-loot) by [@cybergen](https://cybergen/dope-wars-loot)
+- [Temporal Loot](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/temporal-loot) — Extension pack for Loot
 
 # Credits
 

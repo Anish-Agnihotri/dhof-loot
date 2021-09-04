@@ -56,4 +56,10 @@ const fs = require("fs");
     "./output/probability.json",
     JSON.stringify(probability, null, 2)
   );
+
+  // Print top 10,000
+  await fs.writeFileSync(
+    "./output/top-10k.json",
+    JSON.stringify(probability.slice(0, 10000))
+  );
 })();
