@@ -1,0 +1,2 @@
+derivatives/temporal-loot/output/probability.json filter=lfs diff=lfs merge=lfs -text
+derivatives/temporal-loot/output/TemporalLoot.json filter=lfs diff=lfs merge=lfs -text
