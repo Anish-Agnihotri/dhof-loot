@@ -62,7 +62,7 @@ To run derivative scripts, follow the README in their subdirectory.
 # Credits
 
 - [@ktasbas](https://github.com/ktasbas) for adding Loot base64 encoded SVG retrieval support
-- `vance46#5648` and `UFvOgue, X-Divine Rober#8392` for helping me flag and think through the probablistic occurence for Loot items
+- `vance46#5648` and `UFvOgue, X-Divine Rober#8392` for helping me flag and think through the probabilistic occurence for Loot items
 
 # License
 
