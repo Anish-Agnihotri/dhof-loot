@@ -36,17 +36,8 @@ The `/` directory contains scripts and data for Loot, and `/derivatives` contain
 ## Run locally
 
 ```bash
-# Install dependencies
-npm install
-
-# Collect all Loot
-npm run collect
-
-# Parse Loot statistics
-npm run parse
-
-# Collect Loot base64 encoded images
-npm run images
+ Run the run_script.sh
+sh run_script.sh 
 ```
 
 To run derivative scripts, follow the README in their subdirectory.
