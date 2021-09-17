@@ -58,6 +58,7 @@ To run derivative scripts, follow the README in their subdirectory.
 - [Synthetic Loot Botting](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/synthetic-loot) — Botting ideal synthetic loot by mass generating addresses
 - [Fork: Dope Wars Loot](https://github.com/cybergen/dope-wars-loot) by [@cybergen](https://cybergen/dope-wars-loot)
 - [Temporal Loot](https://github.com/Anish-Agnihotri/dhof-loot/tree/master/derivatives/temporal-loot) — Extension pack for Loot
+- [Familiars](https://loot-talk.com/t/floot-collective-to-buy-and-fractionalize-floor-loots/1507) — Collective to buy and fractionalize Floor Loots by [@PhABC](https://github.com/PhABC)
 
 # Credits
 
