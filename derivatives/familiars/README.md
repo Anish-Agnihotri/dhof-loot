@@ -1,5 +1,7 @@
 # Familiars
 
+Original metadata scraped and provided by [PhABC in #6](https://github.com/Anish-Agnihotri/dhof-loot/pull/6); script not included.
+
 ## Distribution
 
 - tokenIds `8001` to `(block.number / 10) + 1` claimable by user.
